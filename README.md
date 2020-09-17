@@ -18,7 +18,7 @@ features.
 ## Installation 
 
 `Nebulosa` is available on `Bioconductor` and can be 
-installed as follows:
+installed as follows (R >= 4.0):
 
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -33,10 +33,10 @@ BiocManager::install("Nebulosa")
 See [Nebulosa](https://bioconductor.org/packages/devel/bioc/html/Nebulosa.html) 
 for more details.
 
-You can install the developing version of `Nebulosa` from github via `devtools`:
+You can install a temporary version of `Nebulosa` for (R < 4.0) from github via `devtools`:
 
 ```R
-devtools::install_github("powellgenomicslab/Nebulosa")
+devtools::install_github("powellgenomicslab/Nebulosa_Rv3")
 ```
 
 ## Vignettes
